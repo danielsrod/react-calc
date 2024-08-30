@@ -1,0 +1,146 @@
+[
+	{
+		"id": 1,
+		"description": "Percentage",
+		"character": "%",
+		"svg": ""
+	},
+	{
+		"id": 2,
+		"description": "Clear Entry",
+		"character": "CE",
+		"svg": ""
+	},
+	{
+		"id": 3,
+		"description": "Clear All",
+		"character": "C",
+		"svg": ""
+	},
+	{
+		"id": 4,
+		"description": "Clear All",
+		"character": "",
+		"svg": "/src/assets/delete.svg"
+	},
+	{
+		"id": 5,
+		"description": "Power to negative 1",
+		"character": "1/x",
+		"svg": ""
+	},
+	{
+		"id": 6,
+		"description": "Power to 2",
+		"character": "x²",
+		"svg": ""
+	},
+	{
+		"id": 7,
+		"description": "Square Root",
+		"character": "",
+		"svg": "/src/assets/square.svg"
+	},
+	{
+		"id": 8,
+		"description": "Divide",
+		"character": "",
+		"svg": "/src/assets/divide.svg"
+	},
+	{
+		"id": 9,
+		"description": "Seven",
+		"character": "7",
+		"svg": ""
+	},
+	{
+		"id": 10,
+		"description": "Eight",
+		"character": "8",
+		"svg": ""
+	},
+	{
+		"id": 11,
+		"description": "Nine",
+		"character": "9",
+		"svg": ""
+	},
+	{
+		"id": 12,
+		"description": "Multiply",
+		"character": "X",
+		"svg": ""
+	},
+	{
+		"id": 13,
+		"description": "Four",
+		"character": "4",
+		"svg": ""
+	},
+	{
+		"id": 14,
+		"description": "Five",
+		"character": "5",
+		"svg": ""
+	},
+	{
+		"id": 15,
+		"description": "Six",
+		"character": "6",
+		"svg": ""
+	},
+	{
+		"id": 16,
+		"description": "Minus",
+		"character": "",
+		"svg": "/src/assets/minus.svg"
+	},
+	{
+		"id": 17,
+		"description": "One",
+		"character": "1",
+		"svg": ""
+	},
+	{
+		"id": 18,
+		"description": "Two",
+		"character": "2",
+		"svg": ""
+	},
+	{
+		"id": 19,
+		"description": "Three",
+		"character": "3",
+		"svg": ""
+	},
+	{
+		"id": 19,
+		"description": "Three",
+		"character": "",
+		"svg": "/src/assets/plus.svg"
+	},
+	{
+		"id": 20,
+		"description": "Plus Minus",
+		"character": "",
+		"svg": "/src/assets/plus-minus.svg"
+	},
+	{
+		"id": 21,
+		"description": "Zero",
+		"character": "0",
+		"svg": ""
+	},
+	{
+		"id": 22,
+		"description": "Dot",
+		"character": ".",
+		"svg": ""
+	},
+	{
+		"id": 23,
+		"description": "Equals",
+		"character": "=",
+		"svg": ""
+	}
+]
