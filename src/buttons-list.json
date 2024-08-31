@@ -1,146 +1,194 @@
 [
 	{
 		"id": 1,
-		"description": "Percentage",
-		"character": "%",
-		"svg": ""
+		"description": "Left parentheses",
+		"character": "(",
+		"svg": "",
+		"handler": "(",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 2,
-		"description": "Clear Entry",
-		"character": "CE",
-		"svg": ""
+		"description": "Right parentheses",
+		"character": ")",
+		"svg": "",
+		"handler": ")",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 3,
 		"description": "Clear All",
 		"character": "C",
-		"svg": ""
+		"svg": "",
+		"handler": "C",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 4,
-		"description": "Clear All",
+		"description": "Delete previous element",
 		"character": "del",
-		"svg": "/src/assets/delete.svg"
+		"svg": "/src/assets/delete.svg",
+		"handler": "del",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 5,
 		"description": "Power to negative 1",
 		"character": "1/x",
-		"svg": ""
+		"svg": "",
+		"handler": "**-1",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 6,
 		"description": "Power to 2",
 		"character": "x²",
-		"svg": ""
+		"svg": "",
+		"handler": "**2",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 7,
 		"description": "Square Root",
 		"character": "sqroot",
-		"svg": "/src/assets/square.svg"
+		"svg": "/src/assets/square.svg",
+		"handler": "**(1/2)",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 8,
 		"description": "Divide",
 		"character": "/",
-		"svg": "/src/assets/divide.svg"
+		"svg": "/src/assets/divide.svg",
+		"handler": "/",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 9,
 		"description": "Seven",
 		"character": "7",
-		"svg": ""
+		"svg": "",
+		"handler": "7",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 10,
 		"description": "Eight",
 		"character": "8",
-		"svg": ""
+		"svg": "",
+		"handler": "8",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 11,
 		"description": "Nine",
 		"character": "9",
-		"svg": ""
+		"svg": "",
+		"handler": "9",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 12,
 		"description": "Multiply",
 		"character": "X",
-		"svg": ""
+		"svg": "",
+		"handler": "*",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 13,
 		"description": "Four",
 		"character": "4",
-		"svg": ""
+		"svg": "",
+		"handler": "4",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 14,
 		"description": "Five",
 		"character": "5",
-		"svg": ""
+		"svg": "",
+		"handler": "5",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 15,
 		"description": "Six",
 		"character": "6",
-		"svg": ""
+		"svg": "",
+		"handler": "6",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 16,
 		"description": "Minus",
 		"character": "-",
-		"svg": "/src/assets/minus.svg"
+		"svg": "/src/assets/minus.svg",
+		"handler": "-",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 17,
 		"description": "One",
 		"character": "1",
-		"svg": ""
+		"svg": "",
+		"handler": "1",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 18,
 		"description": "Two",
 		"character": "2",
-		"svg": ""
+		"svg": "",
+		"handler": "2",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 19,
 		"description": "Three",
 		"character": "3",
-		"svg": ""
-	},
-	{
-		"id": 19,
-		"description": "Plus",
-		"character": "+",
-		"svg": "/src/assets/plus.svg"
+		"svg": "",
+		"handler": "3",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 20,
-		"description": "Plus Minus",
-		"character": "+/-",
-		"svg": "/src/assets/plus-minus.svg"
+		"description": "Plus",
+		"character": "+",
+		"svg": "/src/assets/plus.svg",
+		"handler": "+",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 21,
-		"description": "Zero",
-		"character": "0",
-		"svg": ""
+		"description": "Plus Minus",
+		"character": "+/-",
+		"svg": "/src/assets/plus-minus.svg",
+		"handler": "*-1",
+		"mathOpSpecial": true
 	},
 	{
 		"id": 22,
-		"description": "Dot",
-		"character": ".",
-		"svg": ""
+		"description": "Zero",
+		"character": "0",
+		"svg": "",
+		"handler": "0",
+		"mathOpSpecial": false
 	},
 	{
 		"id": 23,
+		"description": "Dot",
+		"character": ".",
+		"svg": "",
+		"handler": ".",
+		"mathOpSpecial": true
+	},
+	{
+		"id": 24,
 		"description": "Equals",
 		"character": "=",
-		"svg": ""
+		"svg": "",
+		"handler": "=",
+		"mathOpSpecial": true
 	}
 ]
