@@ -17,10 +17,15 @@ export const App = () => {
 			if (scrollbar) scrollbar.scrollLeft = scrollbar.scrollWidth + 100;
 		}, 1);
 	};
+	const autoEval = (expression: string) => {
+		return Function(`return ${expression}`)();
+	};
 	const handleButtonsCalc = (handler: string) => {
 		if (handler === "=") {
-			const stringMath = mathString.join("");
-			setMathString([String(eval(stringMath))]);
+			if (mathOpSpecialList.includes(mathString.at(-1) || "") === false) {
+				const stringMath = mathString.join("");
+				setMathString([String(autoEval(stringMath))]);
+			}
 		} else if (handler === "del") {
 			const newMathString = mathString;
 			newMathString.pop();
