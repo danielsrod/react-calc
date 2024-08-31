@@ -20,7 +20,7 @@
 	{
 		"id": 4,
 		"description": "Clear All",
-		"character": "",
+		"character": "del",
 		"svg": "/src/assets/delete.svg"
 	},
 	{
@@ -38,13 +38,13 @@
 	{
 		"id": 7,
 		"description": "Square Root",
-		"character": "",
+		"character": "sqroot",
 		"svg": "/src/assets/square.svg"
 	},
 	{
 		"id": 8,
 		"description": "Divide",
-		"character": "",
+		"character": "/",
 		"svg": "/src/assets/divide.svg"
 	},
 	{
@@ -92,7 +92,7 @@
 	{
 		"id": 16,
 		"description": "Minus",
-		"character": "",
+		"character": "-",
 		"svg": "/src/assets/minus.svg"
 	},
 	{
@@ -115,14 +115,14 @@
 	},
 	{
 		"id": 19,
-		"description": "Three",
-		"character": "",
+		"description": "Plus",
+		"character": "+",
 		"svg": "/src/assets/plus.svg"
 	},
 	{
 		"id": 20,
 		"description": "Plus Minus",
-		"character": "",
+		"character": "+/-",
 		"svg": "/src/assets/plus-minus.svg"
 	},
 	{
