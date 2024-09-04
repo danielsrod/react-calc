@@ -27,7 +27,7 @@
 		"id": 4,
 		"description": "Delete previous element",
 		"character": "del",
-		"svg": "/src/assets/delete.svg",
+		"svg": "./assets/delete.svg",
 		"handler": "del",
 		"mathOpSpecial": false
 	},
@@ -51,7 +51,7 @@
 		"id": 7,
 		"description": "Square Root",
 		"character": "sqroot",
-		"svg": "/src/assets/square.svg",
+		"svg": "./assets/square.svg",
 		"handler": "**(1/2)",
 		"mathOpSpecial": true
 	},
@@ -59,7 +59,7 @@
 		"id": 8,
 		"description": "Divide",
 		"character": "/",
-		"svg": "/src/assets/divide.svg",
+		"svg": "./assets/divide.svg",
 		"handler": "/",
 		"mathOpSpecial": true
 	},
@@ -123,7 +123,7 @@
 		"id": 16,
 		"description": "Minus",
 		"character": "-",
-		"svg": "/src/assets/minus.svg",
+		"svg": "./assets/minus.svg",
 		"handler": "-",
 		"mathOpSpecial": true
 	},
@@ -155,7 +155,7 @@
 		"id": 20,
 		"description": "Plus",
 		"character": "+",
-		"svg": "/src/assets/plus.svg",
+		"svg": "./assets/plus.svg",
 		"handler": "+",
 		"mathOpSpecial": true
 	},
@@ -163,7 +163,7 @@
 		"id": 21,
 		"description": "Plus Minus",
 		"character": "+/-",
-		"svg": "/src/assets/plus-minus.svg",
+		"svg": "./assets/plus-minus.svg",
 		"handler": "*-1",
 		"mathOpSpecial": true
 	},
